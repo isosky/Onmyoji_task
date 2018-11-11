@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">实时获取输入值：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  maxlength="10" placeholder="请输入式神拼音" bindinput='_name_ch'/>
+        <button type="default" bindtap="dbquery">查询</button>
+      </view>
+    </view>
+  </view>
+</view>

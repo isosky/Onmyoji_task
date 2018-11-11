@@ -1,0 +1,40 @@
+{
+	"_id":1,
+	"image": "1111",
+"loc":
+{
+    "loc": "金币妖怪",
+    "numbers": 18
+},
+"name_ch": "铁鼠",
+"name_py": "tieshu",
+"tasks": [
+{
+    "gouyu": 0,
+    "level": 3,
+    "money": 3,
+    "need": 13,
+    "strength": 0,
+    "type": 2
+}]
+}
+{
+	"_id":2,
+	"image": "1111",
+"loc":
+{
+    "loc": "23章骨女",
+    "numbers": 3
+},
+"name_ch": "赤舌",
+"name_py": "chishe",
+"tasks": [
+{
+    "gouyu": 0,
+    "level": 3,
+    "money": 3,
+    "need": 13,
+    "strength": 0,
+    "type": 2
+}]
+}
